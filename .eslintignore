@@ -1,0 +1,9 @@
+node_modules/
+
+.eslintrc.js
+babel.config.js
+src/lib/models
+
+amplify-codegen-temp/models
+
+src/models
