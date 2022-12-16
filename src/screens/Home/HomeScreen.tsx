@@ -9,7 +9,7 @@ export const HomeScreen = (props: HomeProps) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>{'HomeScreen'}</Text>
+      <Text style={styles.title}>{'Home Screen'}</Text>
       <Pressable style={styles.button} onPress={navigateToProfile}>
         <Text style={styles.buttonText}>{'go to Profile'}</Text>
       </Pressable>
@@ -25,13 +25,16 @@ const styles = StyleSheet.create({
   },
   title: {
     marginBottom: 16,
+    fontSize: 32,
   },
   button: {
     backgroundColor: 'blue',
-    padding: 8,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
     borderRadius: 8,
   },
   buttonText: {
     color: 'white',
+    fontSize: 32,
   },
 });
